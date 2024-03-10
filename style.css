@@ -2,4 +2,41 @@ body {
   width: 100%;
   height: 100%;
   margin: 0;
+
+  header {
+    text-align: center;
+    nav{
+      a{
+        padding-right: 10px;
+        padding-left: 10px;
+        background-color: grey;
+      }
+    }
+  }
+  img{
+    display: block;
+    margin: auto;
+    margin: auto;
+  }
+  figcaption{
+    font-size: 10px;
+    text-align: center;
+  }
+  #featured-property{
+    P{
+      text-align: center;
+      width: 800px;
+      margin: auto;
+      line-height: 1.8;
+
+    }
+  }
+  #details{
+    div{
+      float: left;
+      background-color: brown;
+      text-align: center;
+      width: 25%;
+    }
+  }
 }
